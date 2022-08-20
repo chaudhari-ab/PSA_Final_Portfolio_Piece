@@ -1,0 +1,35 @@
+.about-global-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100vh;
+}
+
+.about-outer-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    flex-grow: 1;
+    /* background-image: url("../images/aboutImage.jpg"); */
+    background-size: 130%;
+}
+
+.about-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content {
+    width: 70vw;
+    max-width: 900px;
+    background: rgba(104, 104, 104, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+    font-size: 1.3rem;
+    line-height: 1.6rem; 
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}

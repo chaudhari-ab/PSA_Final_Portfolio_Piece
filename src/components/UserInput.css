@@ -1,0 +1,66 @@
+.user-input-wrapper {
+    display: flex;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-input-wrapper-huffman {
+    margin: 30px 0;
+}
+
+.user-input {
+    width: 1000px;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-input-huffman {
+    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.conditional-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.selected {
+    background: linear-gradient(120deg, rgb(34, 68, 95), #4682B4) !important;
+}
+
+.step-display {
+    color: #444;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.button-row {
+    margin: 5px 0;
+}
+
+.button-row-label {
+    color: #444;
+}
+
+.message-display {
+    color: #777;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    margin: 15px 0 0;
+}
+
+.primary, .secondary {
+    width: 140px !important;
+    margin-top: 5px !important;
+}
+
+
+
+.custom-padding {
+    padding: 50px 300px 50px 100px;
+}

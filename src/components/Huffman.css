@@ -1,0 +1,8 @@
+.huffman-content {
+    display: flex;
+    justify-content: center;
+}
+
+.huffman-chart {
+    width: 350px;
+}
